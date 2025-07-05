@@ -1,1 +1,12 @@
 ./venv
+# Python bytecode
+__pycache__/
+**/__pycache__/
+*.pyc
+
+# Python environment version manager
+.python-version
+
+# Lock file (depends on your environment, e.g., uv or pipenv or poetry)
+uv.lock
+.env
